@@ -1,0 +1,13 @@
+# Extension manifest (Blender 4.2+). Remove `bl_info` handling only if you ship exclusively as an extension.
+schema_version = "1.0.0"
+
+id = "threedpro_demo"
+version = "0.1.0"
+name = "3Dpro demo"
+tagline = "Operator + panel skeleton"
+maintainer = "You <you@example.com>"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+# permissions = { files = "Read/write exported assets" }   # declare file/network access if the add-on needs it
